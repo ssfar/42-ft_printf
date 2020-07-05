@@ -105,7 +105,7 @@ void	ft_get_unsigned(int_fast8_t type, t_flag *f, size_t unb)
 {
 	if (type == 'u')
 		ft_put_u(f, unb, ft_utoa_base(unb, "0123456789"));
-	else if (type == 'B')
+	else if (type == 'b')
 		ft_put_b(f, unb, ft_utoa_base(unb, "01"));
 	else if (type == 'o')
 		ft_put_o(f, unb, ft_utoa_base(unb, "01234567"));
