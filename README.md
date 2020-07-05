@@ -65,3 +65,12 @@ ft_printf("test [a_underlined]test");
 ![under_2](https://user-images.githubusercontent.com/45463065/86523022-9725cd00-be66-11ea-959a-313f449afd75.png)  
 
 More info on thoses attributes [here](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_parameters).
+
+Here is a demo of the binary format %b
+```  
+ft_printf("%b", 255);
+```
+#### Result :
+
+![bin](https://user-images.githubusercontent.com/45463065/86523175-e4a33980-be68-11ea-9150-646022cb02c3.png)
+
