@@ -48,23 +48,23 @@ You can also replace the color name by your own rgb values between 0 to 255 each
 ```  
 ft_printf("not_colored [123;0;255] colored");
 ```
-#### Result :
+#### Result:
 ![not](https://user-images.githubusercontent.com/45463065/86522942-87f24f80-be65-11ea-952e-202012b880b1.png)  
-To specify that it is a background color with rbg value, add a "b" in front of the first value :
+To specify that it is a background color with rbg value, add a "b" in front of the first value:
 ```  
 ft_printf("not_colored [b123;0;255] colored");
 ```
-#### Result :
+#### Result:
 ![not b_](https://user-images.githubusercontent.com/45463065/86522943-8a54a980-be65-11ea-9541-aad910449651.png)  
-Thoses values can be replaced by the flag * to give the values via variables :
+Thoses values can be replaced by the flag * to give the values via variables:
 ```  
 ft_printf("not_colored [*;*;255] colored", ammount_of_red, rbg_struct.g);
 ```
-Along that you can use the following attributes that most of the terminals handle by typing "a_" followed by the attribute (reset, eoc, eob, bold, faint, italic, underlined, blink, reverse, hidden") :
+Along that you can use the following attributes that most of the terminals handle by typing "a_" followed by the attribute (reset, eoc, eob, bold, faint, italic, underlined, blink, reverse, hidden"):
 ```  
 ft_printf("test [a_underlined]test");
 ```
-#### Result :
+#### Result:
 ![under_2](https://user-images.githubusercontent.com/45463065/86523022-9725cd00-be66-11ea-959a-313f449afd75.png)  
 
 More info on thoses attributes [here](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_parameters).
@@ -73,7 +73,7 @@ Here is a demo of the binary format %b
 ```  
 ft_printf("%b", 255);
 ```
-#### Result :
+#### Result:
 
 ![bin](https://user-images.githubusercontent.com/45463065/86523175-e4a33980-be68-11ea-9150-646022cb02c3.png)
 
