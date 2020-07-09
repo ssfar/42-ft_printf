@@ -1,47 +1,50 @@
 # 42-ft_printf
 printf() is a well-known function of the C standard library. The aim of this project is to recreate this function in order to use it in my future projects.  
 
-Subject : [English](https://github.com/ssfar/42-Subjects.pdf/blob/master/ft_printf.en.pdf) - [Français](https://github.com/ssfar/42-Subjects.pdf/blob/master/ft_printf.fr.pdf)
+Subject: [English](https://github.com/ssfar/42-Subjects.pdf/blob/master/ft_printf.en.pdf) - [Français](https://github.com/ssfar/42-Subjects.pdf/blob/master/ft_printf.fr.pdf)
 
 Grade 100/100  
-Bonus 7/12 :  
+Bonus 7/12:  
 :heavy_check_mark: Colors handeling | :heavy_check_mark: * flag implemented | :heavy_check_mark: Non-existing flag management: %b (binary) | :heavy_check_mark: Exhaustive tester (not in the repo)
-#### Objectives :
+#### Objectives:
 • Parsing   
 • Variadic function   
 
-#### Skills :
+#### Skills:
 • Imperative programming   
 • Algorithms & AI   
 • Unix   
 • Rigor   
 
+#### Developed for Mac OS X.  
+(It might work on other operating systems, otherwise I may apply some modifications later on).
+
 ## How to use
 
-#### Pre required : Make, GCC
+#### Pre required: Make, GCC
 
-To create the lib go into the project and build it :   
+To create the lib go into the project and build it:   
 ```  
 make
 ```
 This will create a lib called libftprintf.a that can be used in C programs.
 
 The function works the same as the original except for a few missing flags, so I will only talk about the bonus here (read the man and the subject for more info).  
-To print in colors, write one of the following colors between square brackets inside the first parameter (black, red, green, yellow, blue, magenta, cyan, white) :
+To print in colors, write one of the following colors between square brackets inside the first parameter (black, red, green, yellow, blue, magenta, cyan, white):
 ```  
 ft_printf("[red]the_text_to_color");
 ```
-#### Result :
+#### Result:
 ![red](https://user-images.githubusercontent.com/45463065/86522941-86c12280-be65-11ea-9d0e-cd6ac065ebb2.png)  
-In front of thoses colors you can add "b_" to modify the color of the background :
+In front of thoses colors you can add "b_" to modify the color of the background:
 ```  
 ft_printf("[b_red]the_text_to_color");
 ```
-#### Result :
+#### Result:
 ![b_red](https://user-images.githubusercontent.com/45463065/86522946-98a2c580-be65-11ea-9665-32a7d230d175.png)  
-#### Background coloration opens the possibility to display pixel art (by coloring spaces) : 
+#### Background coloration opens the possibility to display pixel art (by coloring spaces): 
 ![printf_dolphin](https://user-images.githubusercontent.com/45463065/86522592-abff6200-be60-11ea-8f21-eb7baa3bcfae.png)  
-You can also replace the color name by your own rgb values between 0 to 255 each seperated by a ";" like so :
+You can also replace the color name by your own rgb values between 0 to 255 each seperated by a ";" like so:
 ```  
 ft_printf("not_colored [123;0;255] colored");
 ```
