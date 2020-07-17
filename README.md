@@ -5,7 +5,7 @@ Subject: [English](https://github.com/ssfar/42-Subjects.pdf/blob/master/ft_print
 
 Grade 100/100  
 Bonus 7/12:  
-:heavy_check_mark: Colors handeling | :heavy_check_mark: * flag implemented | :heavy_check_mark: Non-existing flag management: %b (binary) | :heavy_check_mark: Exhaustive tester
+:heavy_check_mark: Attributes/Colors handeling | :heavy_check_mark: * flag implemented | :heavy_check_mark: Non-existing flag management: %b (binary) | :heavy_check_mark: Exhaustive tester
 
 (tester not included in the repo yet)
 
